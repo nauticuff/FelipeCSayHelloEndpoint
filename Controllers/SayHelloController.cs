@@ -15,7 +15,7 @@ namespace FelipeCSayHelloEndpoint.Controllers;
 public class SayHelloController : ControllerBase
 {
     public string Instructions(){
-        return "Type in https://localhost:7320/sayhello/greet/(Your Name)";
+        return "Type in https://localhost:7186/sayhello/greet/(Your Name)";
     }
 
     [HttpGet]
